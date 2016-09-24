@@ -188,7 +188,7 @@ struct Game :Myapp::Scene
 		//ここからふきだし
 		case ptt::Mode::Ready:
 		{
-			if (!characters.empty()) characters.clear(); //削除
+			if (!characters.empty()) characters.clear(); //ふきだしの削除
 
 			answer = Random(0, 359);
 			const auto _pos = Window::Center().movedBy(Vec2(Cos(Radians(answer)), Sin(Radians(answer))).setLength(150).asPoint());
