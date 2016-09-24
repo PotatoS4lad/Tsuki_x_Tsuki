@@ -4,9 +4,9 @@
 
 struct Commondata
 {
-	const Texture texture_earth{ L"Data/Earth.png" };
+	const Texture texture_earth{ L"Assets/Earth.png" };
 
-	const Sound start{ L"Data/Start.wav" };
+	const Sound start{ L"Assets/Start.wav" };
 
 	const Font font{ 20, Typeface::Bold };
 
